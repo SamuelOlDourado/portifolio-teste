@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portifólio Samuel Dourado</title>
+    <link rel="stylesheet" href="css/estilo-geral.css" />
+    <link rel="stylesheet" href="css/estilo-contato.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="icon" href="img/logo-guia.png" type="image/png">  
+</head>
+  <body>
+
+<header>
+    <nav class="navbar navbar-expand-xl fixed-top cor" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo-portifolio.png" class="img-fluid" alt="logo do portifolio"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100">
+            <li class="nav-item item_menu">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item item_menu">
+            <a class="nav-link" href="projetos.html">Projetos</a>
+            </li>
+            <li class="nav-item item_menu">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item item_menu">
+            <a class="nav-link" href="depoimentos.html">Depoimentos</a>
+            </li>
+            <li class="nav-item item_ativo">
+            <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
+            </li>
+        </ul>
+        <div class="acessibilidade-botoes">
+            <button onclick="mudarFonte('+')" title="Aumentar fonte"><i class="bi bi-zoom-in"></i></button>
+            <button onclick="mudarFonte('-')" title="Diminuir fonte"><i class="bi bi-zoom-out"></i></button>
+            <button onclick="modoMonocromatico()" title="Modo monocromático"><i class="bi bi-circle-half"></i></button>
+        </div>
+        </div>
+    </div>
+    </nav>
+</header>
+
+<section class="fundo-contato espaco-inicio">
+
+    <div class="row container-titulo container-fluid mt-5">
+        <div class="col-12 text-center">
+            <h1 class="mt-1">Entre em contato</h1>
+        </div>
+        <div class="col-12 text-white modo-flex text-ju">
+            <p class="mt-2">Tem alguma dúvida, ideia ou projeto em mente? Ou talvez só queira conversar sobre tecnologia, design ou desenvolvimento web? Estou por aqui pronto para te ouvir!</p>
+        </div>
+    </div>
+
+    <div class="row container-fluid mt-3 mb-5 align-items-center justify-content-center">
+
+      <div class="container-form">  
+        <form action="https://formsubmit.co/samuel.do.dourado@gmail.com" method="POST" class="text-white">
+           <div class="row"> 
+                <div class="col-xl-6 col-12 mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="col-xl-6 col-12 mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+           </div> 
+            <div class="mb-3">
+                <label for="assunto" class="form-label">Assunto</label>
+                <input type="text" class="form-control" id="assunto" name="assunto" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/portifolio/obrigado.html">
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-outline-info btn-lg">Enviar</button>
+            </div>
+        </form>
+      </div>  
+
+    </div>
+
+   
+</section>
+
+
+<section class="redes-fundo">
+
+    <div class="row container-fluid mt-5 mb-4 d-flex justify-content-center">
+        <div class="col-12 text-center">
+            <h2 class="mt-5 mb-4 fw-bold">Redes & Contato</h2>
+        </div>
+    </div>
+
+    <div class="row container-fluid modo-flex mb-5">
+
+        <div class="col modo-flex flex-column rede-contato">
+            <a href="https://wa.me/5518996550738" class="btn btn-outline-light fs-3 rounded-3" target="_blank">
+                <div>
+                    <h5>Celular/whatsapp:</h5>
+                    <p>(18) 99655-0738</p>
+                </div>
+            </a>
+        </div>   
+        <div class="col modo-flex flex-column rede-contato">
+            <a href="https://www.linkedin.com/in/samuel-dourado-8787a1309/" class="btn btn-outline-light fs-3 rounded-3" target="_blank">
+                <div>
+                    <h5>Linkedin</h5>
+                    <p>/in/samuel-dourado-8787a1309/</p>
+                </div>    
+            </a>
+        </div> 
+        <div class="col modo-flex flex-column rede-contato">
+            <a href="https://github.com/SamuelOlDourado" class="btn btn-outline-light fs-3 rounded-3" target="_blank">
+                <div>
+                    <h5>GitHub:</h5>
+                    <p>/SamuelOlDourado</p>
+                </div>  
+            </a>
+        </div>    
+         <div class="col modo-flex flex-column rede-contato">   
+            <a href="mailto:samuel.do.dourado@gmail.com" class="btn btn-outline-light fs-3 rounded-3" target="_blank">
+                <div>
+                    <h5>E-mail:</h5>
+                    <p>samuel.do.dourado@gmail.com</p>
+                </div> 
+            </a>
+        </div>
+
+</section>
+
+
+<footer class="modo-flex flex-column">
+
+  <div class="fim-rodape p-2 text-center text-white w-100 modo-flex">
+      <p class="mt-3">© 2025 Samuel Dourado - Todos os direitos reservados.</p>
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/script-principal.js"></script>
+</body>
+</html>

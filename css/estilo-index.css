@@ -1,0 +1,92 @@
+.apresentacao{
+    background: linear-gradient(180deg,rgb(0, 41, 131) 0%, rgba(12, 12, 12, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container-titulo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-titulo h3{
+    color: #E8FAFF;
+}
+
+.container-titulo h1{
+    margin-bottom: 50px;
+    font-size: 100px;
+    color: #51D9FF;
+}
+
+.container-resumo{
+    justify-content: center;
+}
+
+.painel-resumo{
+    height: 50px;
+    border: 5px solid #7BE2FF !important;
+    box-shadow: 15px 15px 0px #7BE2FF !important;
+    background-color: #00203A!important;
+    text-align: justify;
+    color: white !important;
+}
+
+.resu-habili{
+    background-color: #006E9D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.resu-habili img{
+    border: 5px solid #000727 !important;
+    box-shadow: 10px 10px 0px #000727 !important;
+}
+
+.botao-mais a{
+    font-size: 20px;
+}
+
+.resumo-projetos{
+    background-color: rgb(0, 38, 87);
+}
+
+.icones{
+    max-width: 90%;
+    max-height: 0%;
+    border: solid 5px #78c2ff !important;
+    border-radius: 20px;
+}
+
+.icones img{
+    border-radius: 8px;
+}
+
+.card{
+    background-color: rgb(0, 30, 68) !important;
+    text-align: justify;
+}
+
+.botao-link i{
+    font-size: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .container-titulo h1{
+        font-size: 50px; 
+    }
+
+}
+

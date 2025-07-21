@@ -1,0 +1,35 @@
+.apresentacao{
+    background: linear-gradient(180deg,rgba(51, 129, 219, 1) 0%, rgba(0, 4, 54, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-titulo h1{
+    font-size: 120px;
+    color: #5DDCFF;
+}
+
+.container-resumo p{
+    max-width: 500px;
+    text-align: justify;
+}
+
+.depoi-resumo{
+    background-color: #000436;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+@media (max-width: 768px) {
+
+    .container-titulo h1{
+        font-size: 45px; 
+    }
+
+}

@@ -1,0 +1,102 @@
+.apresentacao{
+    background: linear-gradient(180deg,rgba(51, 129, 219, 1) 0%, rgba(0, 4, 54, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-titulo h1{
+    font-size: 120px;
+    color: #5DDCFF;
+    margin-top: 70px;
+}
+
+.container-resumo p{
+    max-width: 500px;
+    text-align: justify;
+}
+
+.destaque-profissional{
+    background-color: #000436;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-habilidade{
+    background-color: #000436;
+    border: 5px solid #00E5FF !important;
+    box-shadow: 15px 15px 0px #FFFFFF !important;
+    padding: 30px;
+    width: 500px;
+}
+
+.container-habilidade strong{
+    color: #00E5FF;
+}
+
+.titu-habili{
+    justify-content: center;
+}
+
+.titu-habili div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.formacoes{
+    background-color: #171F4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-formacao{
+    display: flex;
+    background-color: #000436;
+    border: 5px solid #00E5FF !important;
+    box-shadow: 15px 15px 0px #00E5FF !important;
+    padding: 30px;
+    width: 800px !important;
+}
+
+.valores{
+    background-color: #00245B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-visao{
+    background-color: #00043633;
+}
+
+.container-visao p{
+    width: 400px;
+}
+
+.container-visao i{
+    font-size: 100px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #00E5FF; 
+  padding: 18px; 
+}
+
+@media (max-width: 768px) {
+
+    .container-titulo h1{
+        font-size: 50px; 
+    }
+
+}
