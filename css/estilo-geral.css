@@ -38,7 +38,7 @@ background-color: #00001f;
 
 .acessibilidade-botoes {
   display: flex;
-  gap: 30px;
+  gap: 30px !important;
 }
 
 .acessibilidade-botoes button{
