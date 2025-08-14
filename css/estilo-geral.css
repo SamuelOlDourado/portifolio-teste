@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+nav{
+    border-bottom: #00e1ff solid 3px !important;
+}
+
 header img{
  max-width: 60px;
  max-height: 60px;
@@ -17,19 +21,17 @@ background-color: #00001f !important;
 }
 
 .item_ativo a{
-    color: #87f1ff !important;
+    color: #4fecff !important;
     font-weight: bold;
-
 }
 
 .item_menu a{
     color: #ffffff !important;
     font-weight: bold;
-
 }
 
 .item_menu a:hover{
-    color: #e0feff !important;
+    color: #c0fcfd !important;
 }
 
 .fim-rodape{
